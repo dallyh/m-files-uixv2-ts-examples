@@ -1,4 +1,3 @@
-// AppDefXmlPlugin.mjs
 // @ts-check
 import fs from "node:fs";
 import path from "node:path";
@@ -39,7 +38,6 @@ export class AppDefXmlPlugin {
 						return;
 					}
 
-					// ✅ ESM-safe JSON load
 					const pkg = JSON.parse(fs.readFileSync(path.join(this.rootDir, "package.json"), "utf8"));
 
 					const xmlString = fs.readFileSync(appdefPath, "utf8");

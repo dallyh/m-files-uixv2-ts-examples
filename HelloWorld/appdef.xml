@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-client-v5.xsd">
+  <guid>ea2cdc4e-ad20-4d55-a32d-7f2e1c1f82c5</guid>
+  <name>m-files-uixv2-app-template</name>
+  <version></version>
+  <description></description>
+  <publisher></publisher>
+  <copyright></copyright>
+  <required-mfiles-version>20.12.0.0</required-mfiles-version>
+  <enabled-by-default/>
+  <modules>
+    <module environment="shellui">
+      <file>src/main.js</file>
+    </module>
+  </modules>
+</application>

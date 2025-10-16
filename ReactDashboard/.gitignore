@@ -1,0 +1,42 @@
+# ---> Node.js and NPM packages
+node_modules/
+
+# ---> TypeScript Compiler Output
+build/
+dist/
+*.tsbuildinfo
+
+# ---> MacOS
+.DS_Store
+
+# ---> Logs
+logs/
+*.log
+npm-debug.log*
+
+# ---> Unix OS generated files
+*.swp
+*.swo
+*~
+
+# ---> Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ---> Operating System generated files
+ehthumbs.db
+Thumbs.db
+EOL
+
+# Build files
+build
+
+# Deploy
+install-application.user.json
+
+# env
+.env
+.env.production
+.env.development

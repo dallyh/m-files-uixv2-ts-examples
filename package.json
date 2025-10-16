@@ -1,0 +1,19 @@
+{
+    "name": "m-files-uixv2-examples",
+    "version": "1.0.0",
+    "description": "Examples for UIX v2 with TypeScript.",
+    "scripts": {
+        "format": "prettier . --write"
+    },
+    "keywords": [
+        "UI Extensibility Framework",
+        "TypeScript",
+        "UIXv2"
+    ],
+    "author": "dallyh",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "prettier": "^3.6.2"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "VaultConnections": [
+        {
+            "vaultName": "DefaultVault",
+            "authType": 1,
+            "userName": "",
+            "password": "",
+            "domain": "",
+            "spn": "",
+            "protocolSequence": "ncacn_ip_tcp",
+            "networkAddress": "localhost",
+            "endpoint": 2266,
+            "encryptedConnection": false,
+            "localComputerName": "",
+            "installGroups": ["default"]
+        }
+    ]
+}

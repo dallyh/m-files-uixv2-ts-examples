@@ -1,0 +1,30 @@
+{
+    "name": "m-files-uixv2-hello-world",
+    "version": "1.0.0",
+    "description": "An example hello world app for UIX v2 with TypeScript.",
+    "scripts": {
+        "build": "rspack build",
+        "build:prod": "cross-env NODE_ENV=production rspack build",
+        "dev": "rspack --watch",
+        "deploy": "powershell -ExecutionPolicy Bypass -File install-application.ps1"
+    },
+    "keywords": [
+        "UI Extensibility Framework",
+        "TypeScript",
+        "UIXv2"
+    ],
+    "author": "dallyh",
+    "license": "MIT",
+    "dependencies": {
+        "@m-filescorporation/uix-extensions": "^0.0.3"
+    },
+    "devDependencies": {
+        "@rspack/cli": "^1.5.8",
+        "@rspack/core": "^1.5.8",
+        "@types/node": "^20.11.0",
+        "archiver": "^7.0.1",
+        "cross-env": "^10.1.0",
+        "typescript": "^5.3.3",
+        "xml2js": "^0.6.2"
+    }
+}

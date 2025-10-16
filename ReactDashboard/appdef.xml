@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-client-v5.xsd">
+  <guid>8029255f-83e2-4143-9ea7-5701cab05052</guid>
+  <name>m-files-uixv2-react-dashboard</name>
+  <version></version>
+  <description></description>
+  <publisher></publisher>
+  <copyright></copyright>
+  <required-mfiles-version>20.12.0.0</required-mfiles-version>
+  <enabled-by-default>true</enabled-by-default>
+  <modules>
+    <module environment="shellui">
+      <file>src/main.js</file>
+    </module>
+  </modules>
+  <dashboards>
+    <dashboard id="react-dashboard">
+      <content>src/index.html</content>
+    </dashboard>
+  </dashboards>
+</application>

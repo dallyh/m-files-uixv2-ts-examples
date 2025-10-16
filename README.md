@@ -12,7 +12,7 @@ Requirements:
 This repository contains 2 examples
 
 - [Hello World](./HelloWorld/README.md): a simple HelloWorld application with TypeScript support adapted from the [HelloWorld example](https://developer.m-files.com/Frameworks/User-Interface-Extensibility-Framework/Reference/Samples/HelloWorld/).
-- [React Dashboard]("./ReactDashboard/README.md"): a simple React powered dashboard. Toggleable from command menu. Adapted from [ShellFrame & Dashboard](https://developer.m-files.com/Frameworks/User-Interface-Extensibility-Framework/Reference/Samples/ShellFrameAndDashboard/)
+- [React Dashboard](./ReactDashboard/README.md): a simple React powered dashboard. Toggleable from command menu. Adapted from [ShellFrame & Dashboard](https://developer.m-files.com/Frameworks/User-Interface-Extensibility-Framework/Reference/Samples/ShellFrameAndDashboard/)
 
 ## How to use
 Simply clone the repository, `cd` into any of the examples and run `npm install`. After this, the package should be ready to be created. Run the corresponding command (usually `npm build`). Example use [https://rspack.rs/](https://rspack.rs/) as a bundler.
